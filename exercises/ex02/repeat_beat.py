@@ -15,6 +15,8 @@ if tms <= 0:
     print("No beat...")
 
 else: 
-    while tms > 0:
-        print(str(bt))
+    ck: str = bt
+    while tms > 1:
+        ck = ck + " " + bt
         tms = tms - 1
+    print(ck)
