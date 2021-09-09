@@ -14,4 +14,4 @@ while index < len(wd):
     index = index + 1
     if lt == letter:
         counter = counter + 1
-print("count: " + str(counter))
+print("Count: " + str(counter))
