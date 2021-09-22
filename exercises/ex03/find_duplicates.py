@@ -6,7 +6,7 @@ __author__ = "730329515"
 x = input(("Enter a word:"))
 i: int = 0
 brk: bool = False
-while (i < len(x)-1):
+while (i < len(x) - 1):
     if (brk == True):
         break
     j: int = i + 1
